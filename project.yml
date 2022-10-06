@@ -2,7 +2,8 @@ targetNamespace: ''
 parameters: {}
 packages:
   - name: greetings
-    environment: {}
+    environment:
+        FUNC_LVL: ${FUNC_LVL}
     parameters: {}
     annotations: {}
     actions:
