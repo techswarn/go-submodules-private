@@ -1,4 +1,4 @@
-module github.com/techswarn/example-go-func
+module example.com/m
 
 go 1.18
 

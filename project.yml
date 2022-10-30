@@ -1,20 +1,17 @@
 targetNamespace: ''
 parameters: {}
 packages:
-  - name: greetings
-    environment:
-        FUNC_LVL: ${FUNC_LVL}
+  - name: temperature
     parameters: {}
     annotations: {}
     actions:
-      - name: hello
+      - name: convert
         binary: false
         main: ''
         runtime: 'go:default'
-        web: true
+        web: raw
         parameters: {}
-        environment: {}
         annotations: {}
         limits: {}
-environment:
-  FUNC_LVL: ${FUNC_LVL}
+
+
