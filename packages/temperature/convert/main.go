@@ -23,7 +23,7 @@ func Main(in Request) (*Response, error) {
 	if in.Tempc == 0 {
 		fmt.Println("Input is empty")
 	}
-
+	in.Tempc = 34
 	c := tempconv.Celsius(in.Tempc)
 
 	return &Response{
