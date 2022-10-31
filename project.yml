@@ -9,7 +9,7 @@ packages:
         binary: false
         main: ''
         runtime: 'go:default'
-        web: raw
+        web: true
         parameters: {}
         annotations: {}
         limits: {}
